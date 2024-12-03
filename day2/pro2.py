@@ -1,3 +1,4 @@
+from matplotlib.pylab import *
 from numpy import *
 from matplotlib.pyplot import *
 from math import *
@@ -46,6 +47,27 @@ b = a[:256, :256]
 
 b = a[200:400, 200:400]
 
+
+a = [
+    [
+        1,
+        23,
+        24,
+        3434,
+    ],
+    [
+        12,
+        34,
+        3,
+        43,
+        4,
+        34,
+    ],
+]
+
+eig[e]
+
+norm(a)
 
 print(b.shape)
 imshow(b)
