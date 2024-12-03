@@ -17,6 +17,36 @@ from math import *
 # array(a)
 
 
-a = loadtxt("../circulate/lena.png")
+# a = loadtxt("pendulum.txt")
 
-a.shape
+# a.shape()
+
+# L, t = loadtxt("pendulum.txt")
+# plot(L, t * t, ".")
+
+c = [
+    1,
+    2,
+    3,
+    3,
+    44,
+]
+
+print(c)
+
+# c[:, 1]
+
+
+a = imread("/media/deep/D18/anadonda/conda_practice/circulate/lena.png")
+
+# imshow(a)
+# a.shape
+
+b = a[:256, :256]
+
+b = a[200:400, 200:400]
+
+
+print(b.shape)
+imshow(b)
+show()
